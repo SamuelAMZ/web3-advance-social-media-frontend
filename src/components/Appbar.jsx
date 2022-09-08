@@ -37,13 +37,13 @@ const Appbar = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/message">
-              <BiMessageSquare />
+            <NavLink to="/bookmark">
+              <BiBookmark />
             </NavLink>
           </li>
           <li>
-            <NavLink to="/bookmark">
-              <BiBookmark />
+            <NavLink to="/profil">
+              <MdOutlineAccountCircle />
             </NavLink>
           </li>
         </ul>

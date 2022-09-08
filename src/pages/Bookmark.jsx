@@ -12,23 +12,31 @@ const Explore = () => {
           <div className="books">
             <h3 className="date">12-12-2022</h3>
             <div className="book">
-              <Post />
-              <Post />
+              <div className="line"></div>
+              <div className="book-posts">
+                <Post />
+                <Post />
+              </div>
             </div>
           </div>
           <div className="books">
             <h3 className="date">12-13-2022</h3>
             <div className="book">
-              <Post />
+              <div className="line"></div>
+              <div className="book-posts">
+                <Post />
+              </div>
             </div>
           </div>
           <div className="books">
             <h3 className="date">12-12-2022</h3>
             <div className="book">
-              <Post />
-              <Post />
-              <Post />
-              <Post />
+              <div className="line"></div>
+              <div className="book-posts">
+                <Post />
+                <Post />
+                <Post />
+              </div>
             </div>
           </div>
         </div>

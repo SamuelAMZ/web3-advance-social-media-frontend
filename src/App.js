@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Explore from "./pages/Explore";
 import Notification from "./pages/Notification";
-import Message from "./pages/Message";
+import Profil from "./pages/Profil";
 import Bookmark from "./pages/Bookmark";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/explore" element={<Explore />} />
           <Route path="/notification" element={<Notification />} />
-          <Route path="/message" element={<Message />} />
+          <Route path="/profil" element={<Profil />} />
           <Route path="/bookmark" element={<Bookmark />} />
         </Routes>
       </div>
