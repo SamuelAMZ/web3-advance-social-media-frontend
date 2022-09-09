@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import { BiLinkAlt, BiCalendarEvent } from "react-icons/bi";
 
 const ProfilHead = () => {
@@ -14,7 +15,9 @@ const ProfilHead = () => {
           className="profil-main-img"
           style={{ backgroundImage: "url(/img/random.jpg)" }}
         ></div>
-        <button>Edit profile</button>
+        <button>
+          <NavLink to="/settings">Edit profile</NavLink>
+        </button>
       </div>
 
       <div className="profil-details">
