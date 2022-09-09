@@ -5,6 +5,7 @@ import Explore from "./pages/Explore";
 import Notification from "./pages/Notification";
 import Profil from "./pages/Profil";
 import Bookmark from "./pages/Bookmark";
+import Settings from "./pages/Settings";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/notification" element={<Notification />} />
           <Route path="/profil" element={<Profil />} />
           <Route path="/bookmark" element={<Bookmark />} />
+          <Route path="/settings" element={<Settings />} />
         </Routes>
       </div>
     </>

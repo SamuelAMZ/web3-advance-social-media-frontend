@@ -6,13 +6,13 @@ const ProfilHead = () => {
     <div className="profil-head">
       <div
         className="profil-head-img"
-        style={{ backgroundImage: "url(/img/random.jpg)" }}
+        style={{ backgroundImage: "url(/img/random1.jpg)" }}
       ></div>
 
       <div className="profil-button">
         <div
           className="profil-main-img"
-          style={{ backgroundImage: "url(/img/featured.jpg)" }}
+          style={{ backgroundImage: "url(/img/random.jpg)" }}
         ></div>
         <button>Edit profile</button>
       </div>
