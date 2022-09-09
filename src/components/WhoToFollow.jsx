@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 import FollowElm from "./FollowElm";
 
@@ -13,7 +14,9 @@ const WhoToFollow = () => {
         <FollowElm />
         <FollowElm />
       </div>
-      <button>Show More</button>
+      <button>
+        <NavLink to="/suggetions">Show More</NavLink>{" "}
+      </button>
     </>
   );
 };

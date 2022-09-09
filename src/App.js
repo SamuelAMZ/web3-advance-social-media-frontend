@@ -6,6 +6,8 @@ import Notification from "./pages/Notification";
 import Profil from "./pages/Profil";
 import Bookmark from "./pages/Bookmark";
 import Settings from "./pages/Settings";
+import Follow from "./pages/Follow";
+import Suggetions from "./pages/Suggetions";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Route path="/profil" element={<Profil />} />
           <Route path="/bookmark" element={<Bookmark />} />
           <Route path="/settings" element={<Settings />} />
+          <Route path="/follow" element={<Follow />} />
+          <Route path="/suggetions" element={<Suggetions />} />
         </Routes>
       </div>
     </>

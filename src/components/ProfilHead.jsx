@@ -40,10 +40,14 @@ const ProfilHead = () => {
           </div>
           <div className="profil-follow">
             <div className="following">
-              <span>12</span>following
+              <NavLink to="/follow">
+                <span>12</span> following
+              </NavLink>
             </div>
             <div className="followers">
-              <span>22</span> followers
+              <NavLink to="/follow">
+                <span>22</span> followers
+              </NavLink>
             </div>
           </div>
         </div>
